@@ -1,0 +1,27 @@
+d_update_clip: .inf
+eta: 0.001
+in_neurons: 3
+input_unit_var: true
+input_zero_mean: true
+kernel_size: 9
+lambda_: 0.25
+lca_iters: 1000
+metric_fpath: /home/ubuntu/Project/Image_LCA_08_18_2024_23_17_03/metrics.xz
+no_time_pad: true
+nonneg: true
+out_neurons: 32
+pad: same
+req_grad: false
+result_dir: /home/ubuntu/Project/Image_LCA_08_18_2024_23_17_03
+return_all_ts: false
+return_vars:
+- inputs
+- acts
+- recons
+- recon_errors
+stride: 1
+tau: 100
+track_metrics: false
+transfer_func: soft_threshold
+weight_init: trunc_normal_
+weight_init_kwargs: {}
